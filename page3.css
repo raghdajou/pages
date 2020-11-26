@@ -1,0 +1,398 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    background-image: url("dua1.jpg");
+    background-position:center;  
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
+  background-position-x: right;
+}
+.menu-container{
+    color: antiquewhite;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+ }
+.link{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+h2{
+    text-transform:capitalize;
+    color:#fff;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+} 
+ font{
+    color:#494589;
+    font-size: 20px; 
+    font-weight: 600;
+ }
+ .header-container{
+    color:#fff;
+    /* background-color: #C3EDFA; */
+    display: flex;
+    justify-content: center;
+    
+    /* background-attachment: fixed;  */
+      
+     
+
+}
+
+.header{
+    width: 700;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+ .social.ads{
+ align-self: flex-end;
+ margin-bottom: -1px;
+ float: right;
+ margin-left: -100%;
+ 
+}
+.subscribe{
+    align-self:flex-start;
+    align-self: center;
+    order:1;
+    margin-right: -500%;
+    float: right;
+   }
+h1{
+    text-transform:capitalize;
+    color:#fff;
+    font-weight: 400;
+    font-size:35px;
+    font-family: 'Lora', serif;
+}
+
+h3{
+    text-transform:capitalize;
+    color:#66557F;
+    font-weight: 100;
+    font-size:14px;
+    font-family: 'Lora', serif;
+    font-family: 'Noto Serif JP', serif;
+} 
+
+.myband{
+    align-self:flex-start;
+    align-self:center;
+    /* float: left; */
+    margin-left:-400px;
+   }
+   .playList-container{
+    
+        color:#fff;
+        background-color: #66557F;
+        display: flex;
+        justify-content: center;
+    
+}
+.header1{
+    width: 1500px;
+    height: 770px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:2%;
+    margin-top: -7%;
+
+}
+.play{
+background-color: lightblue;
+align-self: flex-start;
+align-self:center;
+margin-top: -100px;
+
+}
+.song{
+    align-self:flex-start;
+    align-self: center;
+    order:1;
+    margin-right: -300px;
+    margin-top: -100px;
+    background-color: lightseagreen;
+    
+   }
+  
+.line{
+    border-bottom: 2px solid white;
+    position: absolute;
+    width: 395px;
+    box-shadow: 1px 0px 4px;
+    color:#C3EDFA;
+    margin-top: 20px;
+}
+.fa-circle{
+    color:#CCACF8;
+    position: absolute;
+    left: 35%;
+    margin-top: -7px;
+}
+h4{
+    position: absolute;
+    margin-top: 27px;
+    
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+
+}
+h5{
+    position: absolute;
+    margin-top: 27px;
+    left:31%;
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+
+}
+.player{
+ 
+    font-size: 60px;
+}
+.fa-pause-circle{
+    color: #fff;
+    position: absolute;
+    left: 15%;
+    margin-top: 60px;
+}
+.forward{
+ font-size: 44px;
+
+}
+.fa-forward{
+    color: #CCACF8;
+    position: absolute;
+    margin-top: 60px;
+    left:10%;
+}
+.fa-forward:hover{
+    font-size: 70px;
+}
+.backward{
+    font-size: 44px;
+   
+   }
+   .fa-backward{
+       color: #CCACF8;
+       position: absolute;
+       margin-top: 60px;
+       left:21%
+   }
+   .fa-backward:hover{
+       font-size: 70px;
+   }
+   .retweet{
+       font-size: 25px;
+       font-weight: normal;
+   }
+   .fa-retweet{
+    color: #CCACF8;
+    position: absolute;
+    margin-top: 70px;
+    left:60px; 
+   }
+   .repeat{
+    font-size: 25px;
+    font-weight: normal;
+}
+.fa-repeat{
+ color: #CCACF8;
+ position: absolute;
+ margin-top: 70px;
+ left:28%; 
+}
+
+ .myband1{
+    
+    height: 600px;
+    order: 1;
+    width: 445px;
+    background-color:#66557F;
+    padding-left: 20px;
+    margin-top: 8%;
+    
+} 
+.singer-image{
+    
+  margin-top: 30px;
+    float: left;   
+}
+
+
+.myband2{
+    align-self:flex-start;
+    align-self:center;
+    height: 600px;
+    width: 600px;
+    order: 1;
+    background-color: #66557F;
+    margin-right: 10%;
+    margin-top: 8%;
+border-radius: 20px;
+padding-left: 10px;
+
+   }
+   .songName{
+       margin-top: 2%;
+       padding-right: 30%;
+   }
+   .social2{
+    margin-top: 2%;
+    padding-left: 10px;
+    align-items: baseline;
+    width: 300; 
+   }
+   .social2:hover{
+    color:#CCACF8;
+}
+   h6{
+       font-size: 15px;
+        padding-right: 55%;
+        float: right;;
+        margin-top: 30px;
+        font-weight: normal;
+       
+        /* margin-left: -40%; */
+    
+
+   }
+   /* .line2{
+    border-bottom: 2px solid white;
+    position: absolute;
+    width: 140px;
+    box-shadow: 1px 0px 4px;
+    color:#C3EDFA;
+    margin-top:-30px;
+   margin-left: 10%;
+} */
+   .line1{
+    border-bottom: 2px solid white;
+    position: absolute;
+    width: 600px;
+    box-shadow: 1px 0px 4px;
+    color:#C3EDFA;
+    margin-top: 0px;
+}
+.number1{
+    
+    margin-top: 18px;
+    font-size: 14px;
+    font-weight: normal;
+    color:#fff;
+    
+    float: right;
+    margin-top:-5%;
+    padding-right: 20px;
+}
+ .playlist-header{
+    text-transform:capitalize;
+    color:#fff;
+    font-weight: 350;
+    
+    font-size:35px;
+    font-family: 'Lora', serif;
+
+    padding-bottom: 20px;
+    padding-top: 20px;
+}    
+.fa-pause-circle1{
+    color: #fff;
+    float: right;
+    margin-right: 100%;
+  font-size: 440px;
+
+}
+.photo-grid-container{
+    display: flex;
+    justify-content:left;
+    width: 100%;
+    background-color: #67578E;
+    height: 400px;
+}
+.photo-grid{
+    margin-top: 90px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    align-self: start;
+    
+}
+.first-item{
+  
+    order: 1;
+    
+}
+
+.first-item :hover{
+    opacity:0.6;
+    cursor: pointer;
+    
+}
+.sec-item{
+    order: 2; 
+}
+
+.sec-item :hover{
+    opacity:0.6;
+    cursor: pointer;
+    
+}
+.last-item{
+    order: -1;
+}
+.last-item :hover{
+    opacity:0.6;
+    cursor: pointer;
+    
+}
+.thr-item :hover{
+    opacity:0.6;
+    cursor: pointer;
+    
+}
+.thierd-item :hover{
+    opacity:0.6;
+    cursor: pointer;
+    
+}
+
+.songNamepla{
+    font-size: 15px;
+    font-weight:normal;
+    color: #fff;
+    align-items: center;
+    padding-left: 50px;  
+}
+
+.moreplaylist{
+    padding-top: 20px;
+    font-size: 35px;
+    font-family: 'Lora', serif;
+float: left;
+color: #fff;
+
+
+}
+
+
